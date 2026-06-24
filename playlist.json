@@ -1,30 +1,9 @@
 [
   {
     "id": 1,
-    "title": "Aaj Tak",
+    "title": "DD News Live",
     "category": "News",
-    "url": "https://ntvlive.akamaized.net/hls/live/2014332/AAJTAK/master.m3u8",
-    "thumbnail": "https://imgur.com/example_aajtak.png"
-  },
-  {
-    "id": 2,
-    "title": "India TV",
-    "category": "News",
-    "url": "https://indiatv.akamaized.net/hls/live/2034123/indiatv/master.m3u8",
-    "thumbnail": "https://imgur.com/example_indiatv.png"
-  },
-  {
-    "id": 3,
-    "title": "9XM",
-    "category": "Music",
-    "url": "https://pubads.g.doubleclick.net/ssai/event/X12345/master.m3u8",
-    "thumbnail": "https://imgur.com/example_9xm.png"
-  },
-  {
-    "id": 4,
-    "title": "Goldmines Movies",
-    "category": "Movies",
-    "url": "https://goldmines.akamaized.net/hls/live/12345/movies/master.m3u8",
-    "thumbnail": "https://imgur.com/example_goldmines.png"
+    "url": "https://ddnews.akamaized.net/hls/live/2034509/ddnews/master.m3u8",
+    "thumbnail": "https://imgur.com/example_ddnews.png"
   }
 ]

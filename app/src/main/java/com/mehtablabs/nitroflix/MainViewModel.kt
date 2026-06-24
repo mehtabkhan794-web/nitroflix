@@ -15,11 +15,17 @@ class MainViewModel : ViewModel() {
     private val _isLoading = mutableStateOf(false)
     val isLoading: State<Boolean> = _isLoading
 
-    fun fetchStreams(url: String) {
+    private val playlistUrl = "https://raw.githubusercontent.com/mehtabkhan794-web/nitroflix/main/playlist.json"
+
+    init {
+        fetchStreams()
+    }
+
+    fun fetchStreams() {
         viewModelScope.launch {
             _isLoading.value = true
             try {
-                val response = RetrofitClient.instance.getCustomStreams(url)
+                val response = RetrofitClient.instance.getCustomStreams(playlistUrl)
                 _streams.value = response
             } catch (e: Exception) {
                 e.printStackTrace()

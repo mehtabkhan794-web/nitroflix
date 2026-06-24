@@ -1,9 +1,9 @@
 [
   {
     "id": 1,
-    "title": "Big Buck Bunny Test",
+    "title": "Big Buck Bunny",
     "category": "Movies",
-    "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
-    "thumbnail": "https://imgur.com/example.png"
+    "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Big_Buck_Bunny_Main_Poster.jpg"
   }
 ]
